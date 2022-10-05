@@ -7,5 +7,4 @@ all: target clean
 target: $(MAIN).hs
 		$(COMPILER) $(MAIN).hs
 
-clean:
-	rm ${MAIN}.o $(MAIN).hi
+clean: 	rm ${MAIN}.o $(MAIN).hi
